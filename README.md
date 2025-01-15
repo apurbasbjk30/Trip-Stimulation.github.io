@@ -20,7 +20,10 @@ The **Trip Simulation Program** is a C++ application designed to simulate multip
 - Arrival time for each trip segment.
 - Remaining rest time until the next reporting time.
 
-The program leverages **Object-Oriented Programming (OOP)** principles, including inheritance and method overriding, to simulate various trips, each with varying distances and reporting times.
+In addition, a Python script has been added to visualize the trip data through graphs, providing insights into the speed during each trip segment. The Python script plots a graph of Speed vs Trip Number for a user, based on the trip distances and speeds, making the data easier to analyze.
+
+The project also incorporates Object-Oriented Programming (OOP) principles in C++, including inheritance and method overriding, to simulate various trips, each with varying distances and reporting times.
+
 
 ## Key Features
 
@@ -31,6 +34,7 @@ The program leverages **Object-Oriented Programming (OOP)** principles, includin
 - **Time of Arrival**: Displays the expected time of arrival for each trip segment.
 - **Rest Time**: Calculates the remaining rest time before the next reporting time, ensuring no negative values are shown.
 - **Best Average Speed**: Computes the best average speed across all trips.
+- Graphical Visualization: A Python script that visualizes the speed versus trip number for each user, making it easier to analyze the speed variations.
 
 ## Program Structure
 
@@ -56,7 +60,17 @@ Each of these subclasses represents a distinct trip, inheriting the core functio
 - **Constructor**: Accepts user input for speed and initializes necessary values.
 - **Methods**: Inherits and overrides methods to calculate the total distance, time, average speed, and arrival time for each trip.
 
-## How to Use
+Python Graph Plotting Script
+A Python script has been added to this project to plot the Speed vs Trip Number graph for a single user. The script takes the distances and speeds for each trip and visualizes the speed data across different trip numbers.
+
+Speed Data: The script uses predefined lists of speeds for each trip.
+Graphical Output: The graph helps visualize how the speed changes for each trip.
+
+
+![image](https://github.com/user-attachments/assets/3d446a12-2da1-48cd-b59b-c6bb19a897ed)
+![image](https://github.com/user-attachments/assets/c2e5c875-9824-4f0b-98e4-0ed93ecd63b4)
+
+
 
 ### Prerequisites
 
@@ -90,12 +104,18 @@ Best Speed of The CAR is: 68 Km/h
 ```
 
 ## Technologies Used
-
-- **Programming Language**: C++
-- **Concepts**: Object-Oriented Programming (OOP)
-  - Classes and Inheritance
-  - Method Overriding
-  - Arrays and Time Calculations
+## Programming Language:
+-C++ for the main Trip Simulation program.
+-Python for the graph plotting script.
+##Concepts:
+-Object-Oriented Programming (OOP) principles in C++ (Classes, Inheritance, Method Overriding).
+-Time Calculations for trip segment analysis.
+-Graph Plotting with Matplotlib and NumPy for data visualization.
+##Libraries:
+-C++ Standard Library for time and distance calculations.
+^^ Python:
+    -Matplotlib for graphing.
+    -NumPy for data processing and average speed calculation.
 
 
 
