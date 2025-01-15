@@ -67,7 +67,8 @@ Speed Data: The script uses predefined lists of speeds for each trip.
 Graphical Output: The graph helps visualize how the speed changes for each trip.
 
 
-![image](https://github.com/user-attachments/assets/3d446a12-2da1-48cd-b59b-c6bb19a897ed)
+![image](https://github.com/user-attachments/assets/6ebde495-d6d5-45b1-8d63-04c7e60ec65d)
+
 ![image](https://github.com/user-attachments/assets/c2e5c875-9824-4f0b-98e4-0ed93ecd63b4)
 
 
